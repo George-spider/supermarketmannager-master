@@ -8,7 +8,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: smm
     password: 123456
-    url: jdbc:mysql://124.70.129.121:3306/smm?useUnicode=true&characterEncoding=utf-8&useSSL=true
+    url: jdbc:mysql://124.70.129.121:3306/smm
 mybatis:
   type-aliases-package: com.jd.domain #配置别名
   #mapper-locations: classpath:cn/itsource/mapper/*Mapper.xml #约定大于配置 - 可以不写
